@@ -1,0 +1,14 @@
+### kaikki yhteystiedot
+GET http://localhost:3001/api/persons
+
+### poista id llä
+DELETE http://localhost:3001/api/persons/
+
+### lisää uusi 
+POST http://localhost:3001/api/persons/
+Content-Type: application/json
+
+{
+  "name": "Jorma Laitela",
+  "number": "044-9292929"
+}
